@@ -275,6 +275,14 @@ p
     
 }
 
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #03a9f4;
+}
+
 @media (max-width: 1000px)
 {
     .container
