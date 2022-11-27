@@ -283,12 +283,48 @@ a:hover {
     background-color: #03a9f4;
 }
 
+.box .text ul {
+    list-style-type: none;
+}
+
+.box .text ul li{
+    margin-top: 3px;
+}
+
+.project_container 
+{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    margin: 50px;
+    background: #fff;
+    box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+}
+
+.project_container .project_section {
+    position: relative;
+    background: #fff;
+    padding: 40px;
+}
+
+.project_container .project_section hr {
+    margin-bottom: 30px;
+    height: 2px;
+    border: none;
+    background-color: #333;
+}
+
 @media (max-width: 1000px)
 {
     .container
     {
         margin: 10px;
         grid-template-columns: repeat(1,1fr);
+    }
+
+    .project_container{
+        margin: 10px;
     }
 
     .interest ul
