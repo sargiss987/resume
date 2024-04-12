@@ -105,7 +105,7 @@ body
 
 .contactInfo
 {
-    padding-top: 40px;
+    padding-top: 35px;
 }
 
 .title
@@ -236,6 +236,20 @@ p
   font-size: 16px;
 }
 
+.contactInfo .box .year_company h5
+{
+    text-transform: uppercase;
+    color: #848c90;
+    font-weight: 600;
+}
+
+.contactInfo .box .text h4
+{
+  text-transform: uppercase;
+  color: #2a7da2;  
+  font-size: 14px;
+}
+
 .skills .box
 {
     position: relative;
@@ -330,6 +344,10 @@ a:hover {
     height: 2px;
     border: none;
     background-color: #333;
+}
+
+.job-container {
+    display: flex;
 }
 
 @media (max-width: 1000px)
