@@ -1,700 +1,180 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
-        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
-        crossorigin="anonymous" />
-    <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sargis Sargsyan - Software Engineer</title>
+
+  <!-- Importing Inter font from Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+  <style>
+    body {
+      font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background-color: #ffffff;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    header img {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 10px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    }
+    header h1 {
+      margin: 0;
+      font-size: 28px;
+      font-weight: 600;
+    }
+    header p {
+      margin: 5px 0 0;
+      color: #777;
+      font-size: 16px;
+    }
+    .container {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      gap: 20px;
+      padding: 20px;
+    }
+    .left-side, .right-side {
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    }
+    h2.section-title {
+      font-size: 20px;
+      color: #2c3e50;
+      border-bottom: 2px solid #4caf50;
+      padding-bottom: 5px;
+      margin-bottom: 10px;
+      font-weight: 600;
+    }
+    ul, .job, .skill-group, .project-list {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+    li, .job, .skill, .project {
+      margin: 8px 0;
+      font-size: 15px;
+    }
+    .contact-info i {
+      color: #4caf50;
+      margin-right: 8px;
+    }
+    a {
+      color: #4caf50;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    address {
+      font-style: normal;
+      margin-bottom: 20px;
+    }
+    footer {
+      text-align: center;
+      font-size: 14px;
+      padding: 10px;
+      background: #ffffff;
+      color: #888;
+      margin-top: 20px;
+    }
+    @media (max-width: 768px) {
+      .container {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
 </head>
 
 <body>
-    <div>
-        <div class="container">
-            <div class="left_Side">
-                <div class="profileText">
-                    <div class="imgBx">
-                        <img src="prof-img.jpg">
-                    </div>
-                    <h2>Sargis Sargsyan<br><span>Java Developer</span></h2>
-                </div>
+<header>
+  <img src="prof-img.jpg" alt="Profile Picture" />
+  <h1>Sargis Sargsyan</h1>
+  <p>Software Engineer</p>
+</header>
 
-                <div class="contactInfo">
-                    <h2 class="title">Experience</h2>
-                    <div style="background-color: lightblue; padding: 10px; border-radius: 15px;">
-                        <div class="job-container">
+<div class="container">
+  <div class="left-side">
+    <h2 class="section-title">Contact</h2>
+    <address class="contact-info">
+      <p><i class="fa fa-phone"></i> +374 93 844 844</p>
+      <p><i class="fa fa-envelope"></i> fullstack.sargis@gmail.com</p>
+      <p><i class="fa fa-linkedin"></i> <a href="https://www.linkedin.com/in/sargis-sargsyan-7bb5731ba/" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
+      <p><i class="fa fa-github"></i> <a href="https://github.com/sargiss987" target="_blank" rel="noopener noreferrer">GitHub</a></p>
+    </address>
 
-                            <div class="box" style="width: 50%;">
-                                <div class="text">
-                                    <h4>DevTactics</h4>
-                                    <div class="year_company">
-                                        <h5>2024 - Present</h5>
-                                    </div>
-                                </div>
-                                <div class="imgLogo">
-                                    <img src="devtactics.jpeg">
-                                </div>
-                            </div>
+    <h2 class="section-title">Education</h2>
+    <ul>
+      <li>MS Computer and Information Science - AUA</li>
+      <li>Spring Framework - EPAM Systems</li>
+      <li>Android Development - ACA</li>
+    </ul>
 
-                            <div class="box" style="margin-left: 10px;">
-                                <div class="text">
-                                    <h4>BeeTee</h4>
-                                    <div class="year_company">
-                                        <h5>2022 - 2024</h5>
-                                    </div>
-                                </div>
-                                <div class="imgLogo">
-                                    <img src="beetee.jpeg">
-                                </div>
-                            </div>
+    <h2 class="section-title">Languages</h2>
+    <ul>
+      <li>English - Advanced</li>
+      <li>Russian - Fluent</li>
+      <li>Armenian - Native</li>
+    </ul>
 
-                        </div>
+    <h2 class="section-title">Experience</h2>
+    <ul>
+      <li class="job">DevTactics (2024 - Present)</li>
+      <li class="job">BeeTee (2022 - 2024)</li>
+      <li class="job">S-PRO (2021 - 2022)</li>
+      <li class="job">EPAM Systems (2020 - 2021)</li>
+    </ul>
+  </div>
 
+  <div class="right-side">
+    <h2 class="section-title">Profile</h2>
+    <p>
+      Passionate Java Developer with 5+ years of experience designing scalable backend systems and optimizing database performance.
+      Specialized in Spring Boot, cloud solutions, and CI/CD automation. Committed to delivering high-quality code and continuously improving through emerging tech trends.
+    </p>
 
-                        <div class="job-container">
+    <h2 class="section-title">Professional Skills</h2>
+    <ul class="skill-group">
+      <li>Java, Spring Boot, Spring Security, Spring Cloud, Hibernate</li>
+      <li>MySQL, PostgreSQL, MongoDB, Redis</li>
+      <li>Docker, Kubernetes, Jenkins, Git</li>
+      <li>AWS, GCP</li>
+      <li>Apache Kafka, Prometheus</li>
+      <li>Angular, JavaScript, TypeScript</li>
+    </ul>
 
-                            <div class="box" style="width: 50%; margin-top: 10px;">
-                                <div class="text">
-                                    <h4>S-PRO</h4>
-                                    <div class="year_company">
-                                        <h5>2021 - 2022</h5>
-                                    </div>
-                                </div>
-                                <div class="imgLogo">
-                                    <img src="s-pro.jpeg">
-                                </div>
-                            </div>
+    <h2 class="section-title">Projects</h2>
+    <ul class="project-list">
+      <li class="project"><strong>Treatva</strong> - <a href="https://www.treatva.com/" target="_blank" rel="noopener noreferrer">treatva.com</a></li>
+      <li class="project"><strong>Kiuwan</strong> - <a href="https://www.kiuwan.com/" target="_blank" rel="noopener noreferrer">kiuwan.com</a></li>
+      <li class="project"><strong>ParentUp</strong> - <a href="https://www.parentup.com/" target="_blank" rel="noopener noreferrer">parentup.com</a></li>
+      <li class="project"><strong>Tickital</strong> - <a href="https://tickital.com/" target="_blank" rel="noopener noreferrer">tickital.com</a></li>
+      <li class="project"><strong>Assembla</strong> - <a href="https://get.assembla.com/" target="_blank" rel="noopener noreferrer">assembla.com</a></li>
+      <li class="project"><strong>Filestack</strong> - <a href="https://www.filestack.com/" target="_blank" rel="noopener noreferrer">filestack.com</a></li>
+      <li class="project"><strong>Open School</strong> - Educational platform</li>
+    </ul>
+  </div>
+</div>
 
-                            <div class="box" style="margin-top: 10px; margin-left: 10px;">
-                                <div class="text">
-                                    <h4>EPAM Systems</h4>
-                                    <div class="year_company">
-                                        <h5>2020 - 2021</h5>
-                                    </div>
-                                </div>
-                                <div class="imgLogo">
-                                    <img src="epam.jpeg">
-                                </div>
-                            </div>
+<footer>
+  <p>&copy; 2025 Sargis Sargsyan</p>
+</footer>
 
-
-                        </div>
-
-                        <!-- <div class="job-container">
-                            <div class="box" style="width: 50%; margin-top: 10px;">
-                                <div class="text">
-                                    <h4>Freelance</h4>
-                                    <div class="year_company">
-                                        <h5>2019 - 2020</h5>
-                                    </div>
-                                </div>
-                                <div class="imgLogo">
-                                    <img src="freelance.png">
-                                </div>
-                            </div>
-                        </div> -->
-                    </div>
-                </div>
-
-                <div class="contactInfo">
-                    <h3 class="title">Contact Info</h3>
-                    <ul>
-                        <li>
-                            <span class="icon"><i class="fa fa-phone" aria-hidden="true"></i></span>
-                            <span class="text">+374 93 844 844</span>
-                        </li>
-                        <li>
-                            <span class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
-                            <span class="text">fullstack.sargis@gmail.com</span>
-                        </li>
-                        <li>
-                            <span class="icon"><i class="fa fa-linkedin" aria-hidden="true"></i></span>
-                            <a href="https://www.linkedin.com/in/sargis-sargsyan-7bb5731ba/">
-                                <span class="text">linkedin.com/in/sargis-sargsyan-7bb5731ba</span>
-                            </a>
-                        </li>
-                        <li>
-                            <span class="icon"><i class="fa fa-github" aria-hidden="true"></i></span>
-                            <a href="https://github.com/sargiss987">
-                                <span class="text">github.com/sargiss987</span>
-                            </a>
-                        </li>
-                        <!-- <li>
-                            <span class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
-                            <a href="https://www.google.com/maps/place/%D0%95%D1%80%D0%B5%D0%B2%D0%B0%D0%BD">
-                                <span class="text">Armenia, Yerevan</span>
-                            </a>
-                        </li> -->
-                        <!-- <li>
-                            <span class="icon"><i class="fa fa-file" aria-hidden="true"></i></span>
-                            <a href="https://sargiss987.github.io/resume/">
-                                <span class="text">sargis-cv</span>
-                            </a>
-                        </li> -->
-                    </ul>
-                </div>
-
-                <div class="contactInfo education">
-                    <h3 class="title">Education</h3>
-                    <ul>
-                        <li>
-                            <h4>MS CIS</h4>
-                            <h4>AUA</h4>
-                        </li>
-                        <li>
-                            <!-- <h5>2020 - 2021</h5> -->
-                            <h4>Spring Framework</h4>
-                            <h4>EPAM Systems</h4>
-                        </li>
-                        <li>
-                            <!-- <h5>2019 - 2020</h5> -->
-                            <h4>Android Development</h4>
-                            <h4>ACA</h4>
-                        </li>
-                        <!-- <li>
-                            <h5>2019 - 2020</h5>
-                            <h4>Java Core</h4>
-                            <h4>Code School</h4>
-                        </li> -->
-                        <!-- <li>
-                            <h5>2018 - 2019</h5>
-                            <h4>Computer Science</h4>
-                            <h4>Code School</h4>
-                        </li> -->
-                    </ul>
-                </div>
-
-                <div class="contactInfo language">
-                    <h3 class="title">Languages</h3>
-                    <ul>
-                        <li>
-                            <span class="text">English</span>
-                            <span class="percent">
-                                <div style="width: 70%;"></div>
-                            </span>
-
-                        </li>
-                        <li>
-                            <span class="text">Russian</span>
-                            <span class="percent">
-                                <div style="width: 90%;"></div>
-                            </span>
-                        </li>
-                        <li>
-                            <span class="text">Armenian</span>
-                            <span class="percent">
-                                <div style="width: 100%;"></div>
-                            </span>
-                        </li>
-                    </ul>
-                </div>
-
-                <!-- <div class="about_interest">
-                    <h2 class="title">Interest</h2>
-                    <ul>
-                        <li><i class="fa fa-trophy" aria-hidden="true"></i>Sport</li>
-                        <li><i class="fa fa-book" aria-hidden="true"></i>Reading</li>
-                        <li><i class="fa fa-video-camera" aria-hidden="true"></i>Movies</li>
-                        <li><i class="fa fa-globe" aria-hidden="true"></i>Traveling</li>
-                    </ul>
-                </div> -->
-            </div>
-
-            <div class="righ_Side">
-                <div class="about">
-                    <h2 class="title2">Profile</h2>
-                    <p>Passionate Java Developer with 5+ years of experience designing scalable backend systems
-                       and optimizing database performance. Specialized in Spring Boot, AWS cloud solutions,
-                       and CI/CD automation. Committed to delivering high-quality code and continuously improving
-                       through emerging tech trends.
-                    </p>
-                </div>
-
-                <!-- <div class="about">
-                    <h2 class="title2">Experience</h2>
-                    <div class="box">
-                        <div class="text">
-                            <h4>BeeTee</h4>
-                            <div class="year_company">
-                                <h5>2022 - Present</h5>
-                            </div>
-                        </div>
-                        <div class="imgLogo">
-                            <img src="beetee.jpeg">
-                        </div>
-                    </div>
-                    <div class="box">
-                        <div class="text">
-                            <h4>S-PRO</h4>
-                            <div class="year_company">
-                                <h5>2021 - 2022</h5>
-                            </div>
-                        </div>
-                        <div class="imgLogo">
-                            <img src="s-pro.jpeg">
-                        </div>
-                    </div>
-                    <div class="box">
-                        <div class="text">
-                            <h4>EPAM Systems</h4>
-                            <div class="year_company">
-                                <h5>2020 - 2021</h5>
-                            </div>
-                        </div>
-                        <div class="imgLogo">
-                            <img src="epam.jpeg">
-                        </div>
-                    </div>
-
-                    <div class="box">
-                        <div class="text">
-                            <h4>Freelance</h4>
-                            <div class="year_company">
-                                <h5>2019 - 2020</h5>
-                            </div>
-                        </div>
-                        <div class="imgLogo">
-                            <img src="freelance.png">
-                        </div>
-                    </div>
-                </div> -->
-
-                <div class="about skills">
-                    <h2 class="title2">Professional Skills</h2>
-                    <div class="box">
-                        <h4>Java</h4>
-                        <div class="percent">
-                            <div style="width: 95%;"></div>
-                        </div>
-                    </div>
-                    <div class="box">
-                        <h4>Spring Core</h4>
-                        <div class="percent">
-                            <div style="width: 85%;"></div>
-                        </div>
-                    </div>
-                    <div class="box">
-                        <h4>Spring MVC</h4>
-                        <div class="percent">
-                            <div style="width: 85%;"></div>
-                        </div>
-                    </div>
-                    <div class="box">
-                        <h4>Spring Boot</h4>
-                        <div class="percent">
-                            <div style="width: 85%;"></div>
-                        </div>
-                    </div>
-                    <div class="box">
-                        <h4>Spring Security</h4>
-                        <div class="percent">
-                            <div style="width: 80%;"></div>
-                        </div>
-                    </div>
-                    <div class="box">
-                        <h4>Spring Cloud</h4>
-                        <div class="percent">
-                            <div style="width: 45%;"></div>
-                        </div>
-                    </div>
-                    <div class="box">
-                        <h4>Spring JPA</h4>
-                        <div class="percent">
-                            <div style="width: 85%;"></div>
-                        </div>
-                    </div>
-                    <div class="box">
-                        <h4>Hibernate</h4>
-                        <div class="percent">
-                            <div style="width: 70%;"></div>
-                        </div>
-                    </div>
-                    <div class="box">
-                        <h4>MySQL</h4>
-                        <div class="percent">
-                            <div style="width: 79%;"></div>
-                        </div>
-                    </div>
-                    <div class="box">
-                        <h4>PostgreSQL</h4>
-                        <div class="percent">
-                            <div style="width: 69%;"></div>
-                        </div>
-                    </div>
-                    <div class="box">
-                        <h4>Mongo DB</h4>
-                        <div class="percent">
-                            <div style="width: 52%;"></div>
-                        </div>
-                    </div>
-                    <div class="box">
-                        <h4>Gradle/Maven</h4>
-                        <div class="percent">
-                            <div style="width: 68%;"></div>
-                        </div>
-                    </div>
-                    <div class="box">
-                        <h4>Git</h4>
-                        <div class="percent">
-                            <div style="width: 81%;"></div>
-                        </div>
-                    </div>
-                    <div class="box">
-                        <h4>AWS</h4>
-                        <div class="percent">
-                            <div style="width: 67%;"></div>
-                        </div>
-                    </div>
-                    <div class="box">
-                        <h4>GCP</h4>
-                        <div class="percent">
-                            <div style="width: 63%;"></div>
-                        </div>
-                    </div>
-                    <div class="box">
-                        <h4>Docker</h4>
-                        <div class="percent">
-                            <div style="width: 69%;"></div>
-                        </div>
-                    </div>
-                    <div class="box">
-                        <h4>Kubernetes</h4>
-                        <div class="percent">
-                            <div style="width: 48%;"></div>
-                        </div>
-                    </div>
-                    <div class="box">
-                        <h4>Apache Kafka</h4>
-                        <div class="percent">
-                            <div style="width: 71%;"></div>
-                        </div>
-                    </div>
-                    <div class="box">
-                        <h4>Prometheus</h4>
-                        <div class="percent">
-                            <div style="width: 35%;"></div>
-                        </div>
-                    </div>
-                    <div class="box">
-                        <h4>Jenkins</h4>
-                        <div class="percent">
-                            <div style="width: 30%;"></div>
-                        </div>
-                    </div>
-                    <div class="box">
-                        <h4>Angular</h4>
-                        <div class="percent">
-                            <div style="width: 33%;"></div>
-                        </div>
-                    </div>
-                    <div class="box">
-                        <h4>Java Script</h4>
-                        <div class="percent">
-                            <div style="width: 52%;"></div>
-                        </div>
-                    </div>
-                    <div class="box">
-                        <h4>Type Script</h4>
-                        <div class="percent">
-                            <div style="width: 32%;"></div>
-                        </div>
-                    </div>
-                    <div class="box">
-                        <h4>Ruby</h4>
-                        <div class="percent">
-                            <div style="width: 29%;"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="project_container ">
-            <div class="project_section">
-                <div class="about">
-                    <h2 class="title2">Passed Projects</h2>
-                </div>
-
-
-                <hr>
-                </hr>
-
-                <div class="about">
-                    <h2 class="title2">Treatva</h2>
-                    <div class="box">
-                        <div class="text">
-                            <h4>About</h4>
-                            <p>
-                                Users directly impact the lives of real shelter animals,
-                                through playing the game and sending meals/treats.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="box">
-                        <div class="text">
-                            <h4>Used technologies</h4>
-                            <p>Java 11, Maven, Spring Boot, Spring WebFlux, Spring Security, Angular, Firestore,
-                                GitLab, Docker, JUnit 5, Jira, Swagger, PayPal, BlueSnap, GCP (Cloud SQL, App Engine,
-                                Cloud Repository, Vertex AI)
-                            </p>
-                        </div>
-                    </div>
-                    <div class="box">
-                        <div class="text">
-                            <h4>Link to project</h4>
-                            <a href="https://www.treatva.com/">treatva.com</a>
-                        </div>
-                    </div>
-                </div>
-
-                <hr>
-                </hr>
-
-                <div class="about">
-                    <h2 class="title2">Kiuwan</h2>
-                    <div class="box">
-                        <div class="text">
-                            <h4>About</h4>
-                            <p>
-                                A comprehensive service for assessing code quality and identifying security
-                                vulnerabilities.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="box">
-                        <div class="text">
-                            <h4>Used technologies</h4>
-                            <p>Java 8, XML, Apache Ant, ANTLR, Spring, Docker, Git, WildFly, JUnit 4, Jira
-                            </p>
-                        </div>
-                    </div>
-                    <div class="box">
-                        <div class="text">
-                            <h4>Link to project</h4>
-                            <a href="https://www.kiuwan.com/">kiuwan.com</a>
-                        </div>
-                    </div>
-                </div>
-
-                <hr>
-                </hr>
-
-                <div class="about">
-                    <h2 class="title2">ParentUp</h2>
-                    <div class="box">
-                        <div class="text">
-                            <h4>About</h4>
-                            <p>
-                                Find Service Providers in New York City like Birth Doulas,
-                                Childcare, Birthdays, Camps, and Activities. All endorsed
-                                by Parents in your community.
-                            </p>
-                        </div>
-                    </div>
-                    <!-- <div class="box">
-                        <div class="text">
-                            <h4>My tasks</h4>
-                            <ul>
-                                <li>Examine the project architecture and database schema for further fundamental changes
-                                </li>
-                                <li>Change the existing model, create new services and controllers that meet the new
-                                    requirements</li>
-                                <li>Write database scripts for migration</li>
-                                <li>Improve existing Swagger documentation</li>
-                                <li>Create unit and integration tests</li>
-                                <li>Create docker and docker-compose files for deployment</li>
-                                <li>Fix pipeline (deployment to AWS EC2) bugs</li>
-                            </ul>
-                        </div>
-                    </div> -->
-                    <div class="box">
-                        <div class="text">
-                            <h4>Used technologies</h4>
-                            <p>Java 17, Maven, Spring Boot, Spring Security, JWT, Angular, PostgreSQL, Liquibase,
-                                Git, Docker, AWS (IAM, S3, RDS, EC2, SES), JUnit 5, Jira, Jenkins,
-                                Confluence, Swagger
-                            </p>
-                        </div>
-                    </div>
-                    <div class="box">
-                        <div class="text">
-                            <h4>Link to project</h4>
-                            <a href="https://www.parentup.com/">parentup.com</a>
-                        </div>
-                    </div>
-                </div>
-
-                <hr>
-                </hr>
-
-                <div class="about">
-                    <h2 class="title2">Tickital</h2>
-                    <div class="box">
-                        <div class="text">
-                            <h4>About</h4>
-                            <p>
-                                With the Tickital app you can rent or rent out your digital ticket easily and securely.
-                            </p>
-                        </div>
-                    </div>
-                    <!-- <div class="box">
-                        <div class="text">
-                            <h4>My tasks</h4>
-                            <ul>
-                                <li>Fix several bugs coming from the old version</li>
-                                <li>Integrate Swagger into the project</li>
-                                <li>Integrate Swish payment system to the app</li>
-                                <li>Develop new modules for reselling events and sports tickets</li>
-                                <li>Investigate database schema, write migration scripts for the new schema</li>
-                                <li>Create unit and integration tests</li>
-                                <li>Create service for mobile phone validation using Twilio lookup API</li>
-                                <li>Improve the existing payment flow, thereby saving money for companies (reorder
-                                    transactions, include multiple payments in one transaction if possible, etc.)</li>
-                                <li>Add new regions (with relevant rules) for transport tickets</li>
-                                <li>Add buyer commission fee</li>
-                            </ul>
-                        </div>
-                    </div> -->
-                    <div class="box">
-                        <div class="text">
-                            <h4>Used technologies</h4>
-                            <p>Java 11, Maven, Spring Boot, Spring Security, Flutter, MySQL, H2, Git,
-                                Docker, AWS (IAM, S3, RDS, Elastic Beanstalk), GCP (Cloud SQL, App Engine),
-                                JUnit 5, Jira, Confluence, Jenkins, Swagger, SendGrid, Twilio, Grafana
-                            </p>
-                        </div>
-                    </div>
-                    <div class="box">
-                        <div class="text">
-                            <h4>Link to project</h4>
-                            <a href="https://tickital.com/">tickital.com</a>
-                            <!-- <a href="https://play.google.com/store/apps/details?id=com.peunpeu.tripier">
-                                Play Store</a>
-                            </br>
-                            <a href="https://apps.apple.com/fi/app/tickital/id1499957400">
-                                App Store</a> -->
-                        </div>
-                    </div>
-                </div>
-
-                <hr>
-                </hr>
-
-                <div class="about">
-                    <h2 class="title2">Assembla</h2>
-                    <div class="box">
-                        <div class="text">
-                            <h4>About</h4>
-                            <p>
-                                Comprehensive project management, collaboration, and source code control service.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="box">
-                        <div class="text">
-                            <h4>Used technologies</h4>
-                            <p>Ruby on Rails, JavaScript, React Components, Git, HTML, CSS
-                            </p>
-                        </div>
-                    </div>
-                    <div class="box">
-                        <div class="text">
-                            <h4>Link to project</h4>
-                            <a href="https://get.assembla.com/">assembla.com</a>
-                        </div>
-                    </div>
-                </div>
-
-                <hr>
-                </hr>
-
-                <div class="about">
-                    <h2 class="title2">Filestack</h2>
-                    <div class="box">
-                        <div class="text">
-                            <h4>About</h4>
-                            <p>
-                                Filestack is a set of tools and powerful APIs that allow you to upload, transform and
-                                deliver content easily.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="box">
-                        <div class="text">
-                            <h4>Used technologies</h4>
-                            <p>Java 11, Gradle, Spring Boot, GitHub, JUnit 5, Jira, HTML, CSS, JavaScript, TypeScript,
-                                Vue JS,
-                                WebSocket, WebGL, AWS (IAM, S3, EC2, CloudFront)
-                            </p>
-                        </div>
-                    </div>
-                    <div class="box">
-                        <div class="text">
-                            <h4>Link to project</h4>
-                            <a href="https://www.filestack.com/">filestack.com</a>
-                        </div>
-                    </div>
-                </div>
-
-                <hr>
-                </hr>
-
-                <div class="about">
-                    <h2 class="title2">Open school</h2>
-                    <div class="box">
-                        <div class="text">
-                            <h4>About</h4>
-                            <p>
-                                The app is a platform for both students and mentors.
-                                Mentors create free courses and students can enroll in courses.
-                                Courses have learning sections as well as quiz and assessment sections.
-                                The application provides flexible search and filtering options.
-                                Content quality and compliance is controlled by app administrators.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="box">
-                        <!-- <div class="text">
-                            <h4>My tasks</h4>
-                            <ul>
-                                <li>Investigate git branching strategies</li>
-                                <li>Create a docker-compose file for the local MySql database</li>
-                                <li>Design database initial state and integrate Flyway to the project</li>
-                                <li>Integrate Spring security to the project</li>
-                                <li>Create ci/cd through GitHub actions and AWS CLI</li>
-                                <li>Configure Google Java code style, create Gradle check style tasks and add jobs to
-                                    the pipelines</li>
-                                <li>Integrate Swagger into the project</li>
-                                <li>Integrate SonarQube to the project, add jobs to the pipelines for both JS and Java
-                                    code quality</li>
-                                <li>Create register and login part</li>
-                                <li>Create a mailing service and templates</li>
-                                <li>A lot of business tasks like creating services, repositories, controllers, and so on
-                                </li>
-                                <li>Create unit and integration tests</li>
-                                <li>Some frontend tasks like multi-tab logout, redirecting users to their logged page
-                                    after email verification, and so on</li>
-                            </ul>
-                        </div> -->
-                    </div>
-                    <div class="box">
-                        <div class="text">
-                            <h4>Used technologies</h4>
-                            <p>Java 11, Gradle, Spring Boot, Spring Security, JWT, ReactJS, MySQL, H2, Flyway, Git,
-                                Docker, AWS (IAM, S3, RDS, Elastic Beanstalk), Gmail SMTP, Thymeleaf, SonarQube, JUnit
-                                5, Jira, Swagger
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </div>
-    </div>
-    </div>
 </body>
-
 </html>
