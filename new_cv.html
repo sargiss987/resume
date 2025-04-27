@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sargis Sargsyan - Software Engineer</title>
+
+  <!-- Importing Inter font from Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+  <style>
+    body {
+      font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background-color: #ffffff;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    header img {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 10px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    }
+    header h1 {
+      margin: 0;
+      font-size: 28px;
+      font-weight: 600;
+    }
+    header p {
+      margin: 5px 0 0;
+      color: #777;
+      font-size: 16px;
+    }
+    .container {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      gap: 20px;
+      padding: 20px;
+    }
+    .left-side, .right-side {
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    }
+    h2.section-title {
+      font-size: 20px;
+      color: #2c3e50;
+      border-bottom: 2px solid #4caf50;
+      padding-bottom: 5px;
+      margin-bottom: 10px;
+      font-weight: 600;
+    }
+    ul, .job, .skill-group, .project-list {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+    li, .job, .skill, .project {
+      margin: 8px 0;
+      font-size: 15px;
+    }
+    .contact-info i {
+      color: #4caf50;
+      margin-right: 8px;
+    }
+    a {
+      color: #4caf50;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    address {
+      font-style: normal;
+      margin-bottom: 20px;
+    }
+    footer {
+      text-align: center;
+      font-size: 14px;
+      padding: 10px;
+      background: #ffffff;
+      color: #888;
+      margin-top: 20px;
+    }
+    @media (max-width: 768px) {
+      .container {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+
+<body>
+<header>
+  <img src="prof-img.jpg" alt="Profile Picture" />
+  <h1>Sargis Sargsyan</h1>
+  <p>Software Engineer</p>
+</header>
+
+<div class="container">
+  <div class="left-side">
+    <h2 class="section-title">Contact</h2>
+    <address class="contact-info">
+      <p><i class="fa fa-phone"></i> +374 93 844 844</p>
+      <p><i class="fa fa-envelope"></i> fullstack.sargis@gmail.com</p>
+      <p><i class="fa fa-linkedin"></i> <a href="https://www.linkedin.com/in/sargis-sargsyan-7bb5731ba/" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
+      <p><i class="fa fa-github"></i> <a href="https://github.com/sargiss987" target="_blank" rel="noopener noreferrer">GitHub</a></p>
+    </address>
+
+    <h2 class="section-title">Education</h2>
+    <ul>
+      <li>MS Computer and Information Science - AUA</li>
+      <li>Spring Framework - EPAM Systems</li>
+      <li>Android Development - ACA</li>
+    </ul>
+
+    <h2 class="section-title">Languages</h2>
+    <ul>
+      <li>English - Advanced</li>
+      <li>Russian - Fluent</li>
+      <li>Armenian - Native</li>
+    </ul>
+
+    <h2 class="section-title">Experience</h2>
+    <ul>
+      <li class="job">DevTactics (2024 - Present)</li>
+      <li class="job">BeeTee (2022 - 2024)</li>
+      <li class="job">S-PRO (2021 - 2022)</li>
+      <li class="job">EPAM Systems (2020 - 2021)</li>
+    </ul>
+  </div>
+
+  <div class="right-side">
+    <h2 class="section-title">Profile</h2>
+    <p>
+      Passionate Java Developer with 5+ years of experience designing scalable backend systems and optimizing database performance.
+      Specialized in Spring Boot, cloud solutions, and CI/CD automation. Committed to delivering high-quality code and continuously improving through emerging tech trends.
+    </p>
+
+    <h2 class="section-title">Professional Skills</h2>
+    <ul class="skill-group">
+      <li>Java, Spring Boot, Spring Security, Spring Cloud, Hibernate</li>
+      <li>MySQL, PostgreSQL, MongoDB, Redis</li>
+      <li>Docker, Kubernetes, Jenkins, Git</li>
+      <li>AWS, GCP</li>
+      <li>Apache Kafka, Prometheus</li>
+      <li>Angular, JavaScript, TypeScript</li>
+    </ul>
+
+    <h2 class="section-title">Projects</h2>
+    <ul class="project-list">
+      <li class="project"><strong>Treatva</strong> - <a href="https://www.treatva.com/" target="_blank" rel="noopener noreferrer">treatva.com</a></li>
+      <li class="project"><strong>Kiuwan</strong> - <a href="https://www.kiuwan.com/" target="_blank" rel="noopener noreferrer">kiuwan.com</a></li>
+      <li class="project"><strong>ParentUp</strong> - <a href="https://www.parentup.com/" target="_blank" rel="noopener noreferrer">parentup.com</a></li>
+      <li class="project"><strong>Tickital</strong> - <a href="https://tickital.com/" target="_blank" rel="noopener noreferrer">tickital.com</a></li>
+      <li class="project"><strong>Assembla</strong> - <a href="https://get.assembla.com/" target="_blank" rel="noopener noreferrer">assembla.com</a></li>
+      <li class="project"><strong>Filestack</strong> - <a href="https://www.filestack.com/" target="_blank" rel="noopener noreferrer">filestack.com</a></li>
+      <li class="project"><strong>Open School</strong> - Educational platform</li>
+    </ul>
+  </div>
+</div>
+
+<footer>
+  <p>&copy; 2025 Sargis Sargsyan</p>
+</footer>
+
+</body>
+</html>
