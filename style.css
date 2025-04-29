@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
 *
-{   
+{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -16,7 +16,7 @@ body
     min-height: 100vh;
 }
 
-.container 
+.container
 {
     position: relative;
     width: 100%;
@@ -43,6 +43,7 @@ body
   flex-direction: column;
   align-items: center;
   padding: 20px;
+  padding-top: 10px;
   border-bottom: 1px solid rgba(255,255,255,0.2);
 }
 
@@ -87,7 +88,7 @@ body
 .profileText h2
 {
   color: #fff;
-  font-size: 1.5em;
+  font-size: 1.2em;
   margin-top: 20px;
   text-transform: uppercase;
   text-align: center;
@@ -118,20 +119,20 @@ body
 }
 
 .contactInfo ul {
-   position: relative; 
+   position: relative;
 }
 
 .contactInfo ul li {
     position: relative;
     list-style: none;
-    margin: 10px 0; 
+    margin: 10px 0;
     cursor: pointer;
  }
 
- .contactInfo ul li .icon 
+ .contactInfo ul li .icon
  {
     display: inline-block;
-    width: 30px; 
+    width: 30px;
     font-size: 18px;
     color: #03a9f4;
  }
@@ -149,7 +150,7 @@ body
 
 .contactInfo.education h5
 {
-  color: #03a9f4;  
+  color: #03a9f4;
   font-weight: 500;
 }
 
@@ -232,7 +233,7 @@ p
 .about .box .text h4
 {
   text-transform: uppercase;
-  color: #2a7da2;  
+  color: #2a7da2;
   font-size: 16px;
 }
 
@@ -246,7 +247,7 @@ p
 .contactInfo .box .text h4
 {
   text-transform: uppercase;
-  color: #2a7da2;  
+  color: #2a7da2;
   font-size: 14px;
 }
 
@@ -263,7 +264,7 @@ p
 .skills .box h4
 {
    text-transform: uppercase;
-   color: #848c99; 
+   color: #848c99;
    font-weight: 500;
 }
 
@@ -272,7 +273,7 @@ p
   position: relative;
   width: 100%;
   height: 10px;
-  background: #f0f0f0;  
+  background: #f0f0f0;
 }
 
 .skills .box .percent div
@@ -284,7 +285,7 @@ p
     background: #03a9f4;
 }
 
-.interest ul 
+.interest ul
 {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -298,12 +299,12 @@ p
     margin: 10px 0;
 }
 
-.interest ul li .fa 
+.interest ul li .fa
 {
     color: #03a9f4;
     font-size: 18px;
     width: 20px;
-    
+
 }
 
 a:link {
@@ -322,7 +323,7 @@ a:hover {
     margin-top: 3px;
 }
 
-.project_container 
+.project_container
 {
     position: relative;
     width: 100%;
@@ -366,7 +367,7 @@ a:hover {
     {
         grid-template-columns: repeat(2, 1fr);
     }
-    
+
 }
 
 @media (max-width: 600px)
